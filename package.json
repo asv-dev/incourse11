@@ -1,0 +1,17 @@
+{
+  "name": "incourse11",
+  "version": "1.0.0",
+  "description": "Incourse 11 lessons monorepo",
+  "main": "index.js",
+  "repository": "https://github.com/asv-dev/incourse11",
+  "author": "asv-dev <anton.vitrenko.dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel './src/**/*.html' -p 3001",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
