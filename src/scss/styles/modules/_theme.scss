@@ -1,0 +1,25 @@
+$main-bg-color: #6F9283;
+$main-fonts: 'Montserrat', sans-serif;
+
+$main-spacing-xxs: 8px;
+$main-spacing-xs: 12px;
+$main-spacing-s: 16px;
+$main-spacing-l: 32px;
+
+$desktop-content-limit: 1100px;
+
+$font-size-base: 24px;
+
+$responsive-mobile-width: 600px;
+
+@mixin box-mixin($bgColor) {
+  background-color: $bgColor;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: $font-size-base;
+}

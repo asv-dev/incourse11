@@ -1,0 +1,16 @@
+@use "sass:math";
+@import "theme";
+
+.box-green {
+  @include box-mixin($bgColor: green)
+}
+
+.box-red {
+  @include box-mixin($bgColor: red)
+}
+
+.box-blue {
+  @include box-mixin($bgColor: blue);
+  width: math.div(300px, 960px) * 100%;
+  border: 2 * 3 solid black;
+}

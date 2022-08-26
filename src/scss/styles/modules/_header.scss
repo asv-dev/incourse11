@@ -1,0 +1,40 @@
+@import "theme";
+
+.header {
+  background-color: $main-bg-color;
+  height: 70px;
+  padding: $main-spacing-s;
+  color: white;
+  margin-bottom: $main-spacing-l;
+
+  @media screen and (max-width: $responsive-mobile-width) {
+    height: 200px;
+  }
+
+  &__nav {
+    height: 100%;
+    max-width: $desktop-content-limit;
+    margin: 0 auto;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+
+    @media screen and (max-width: $responsive-mobile-width) {
+      flex-direction: column;
+    }
+  }
+
+  &__link {
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
