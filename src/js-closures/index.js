@@ -172,3 +172,20 @@ const result = map(arr, multiplyGenerator(10) )
 
 console.log(arr, result)
 
+
+// HOMEWORK N5
+// const partial = (fn, ...args) => {
+//     const returnFunction = (...childArgs) => {
+//         return fn(...args, ...childArgs)
+//     }
+//
+//     return returnFunction;
+// }
+
+// const arr = [1,2,3,4,5,6,7,8];
+// const arr2 = [9, 10, 11, 12, 13];
+//
+// const copyArray = [...arr]
+// copyArray.push('hello');
+//
+// console.log(arr, copyArray)
