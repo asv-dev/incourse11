@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin-left: 16px;
+    color: #465362;
+}
+
+.subtitle {
+    margin-left: 16px;
+    color: #355070;
+    font-weight: 400;
+}
